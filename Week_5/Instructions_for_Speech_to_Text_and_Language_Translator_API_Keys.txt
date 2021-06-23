@@ -1,0 +1,65 @@
+Objective
+In this lab, you will learn:
+
+IBM Speech to Text Service
+
+IBM Language Translator Service
+
+In this lab, you will create an instance of IBM Speech to Text and IBM Language Translator. IBM Speech to Text is a service that converts speech in audio format into text. Watson Speech to Text is a service that uses deep learning algorithms to convert speech to text. IBM Language Translator converts one language to another.
+
+NOTE: In order to complete this the lab in this section you will be creating an IBM Cloud account and create an instance of IBM Speech to Text and IBM Language Translator and obtain their respective API Keys. A credit card is NOT required to sign up for IBM Cloud Lite account and there is no charge associated in creating a Lite plan instance of the Watson VR service.
+
+Step 1: Create an IBM Cloud Account
+Scenario
+To access the resources and services that the IBM Cloud provides, you will need an IBM Cloud account.
+
+If you already have an IBM Cloud account, you can skip this step.
+
+Go to: https://cloud.ibm.com/registration to create a free account on IBM Cloud.
+Note: If you already have an IBM Cloud account, Login by going to https://cloud.ibm.com/login and skip ahead to Exercise 2.
+
+Enter your company Email address and a strong Password and then click the Next button.
+
+
+An email is sent to the address that you signed up with to confirm your email address. Check your email and copy and paste Verification code. Then click Next.
+
+
+Once your email is successfully verified, enter your First name, Last name, and Country and click Next.
+
+
+After your personal information is accepted Click on Create account button.
+ It takes a few seconds to create and set up your account.
+
+You will see this page which confirms your account creation and allows you to login.
+
+The username (which is your email address) is already populated. Enter your password and login. 
+
+Read carefully about the IBMid Privacy and click on proceed to acknowledge and login.
+
+
+Once you successfully login, you should see the dashboard. You can now proceed to the next exercise.
+
+
+
+
+Step 2: Create an instance of Language Translator service
+Scenario
+Language Translator, which is available as a service on IBM Cloud, and a component of the IBM Cloud Pak for Data, allows you to translate text from one language to another. In this exercise, you will add an instance of the Language Translator service to your IBM Cloud account.
+
+In the IBM Cloud Catalog go to the Language Translator listing
+
+On the Language Translator page, select the Region, verify that the Lite plan is selected, and then click Create.
+
+Once the Language Translator instance is successfully created, you'll get the below screen. Copy the credentials and paste into a file using a text editor on your system.
+
+
+
+
+Step 3: Create a Speech to Text Instance
+Speech to Text, which is available as a service on IBM Cloud provides an API to add speech transcription capabilities to applications. In this exercise, you will add an instance of the Speech To Text service to your IBM Cloud account.
+
+In the IBM Cloud Catalog, type Speech to Text in the Search box and choose the service or go to Speech to Text Service
+
+On the Speech To Text Service page, select a Region, verify that the Lite plan is selected, and then click Create.
+
+Once the Speech to Text instance is successfully created, you'll be taken to the instance page. Choose the Service Credentials and copy the Auto-generated credentials and paste it into a file using the text editor in your system. You will need to use this later.
